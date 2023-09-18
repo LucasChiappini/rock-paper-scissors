@@ -1,0 +1,62 @@
+.container {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.avatar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  border: 1px dashed;
+  padding: 5px;
+  margin: 5px
+}
+
+.avatars {
+  display: flex;
+  flex-direction: row;
+}
+
+.result {
+  border: 3px solid lightskyblue;
+  border-radius: 10px;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-size: larger;
+  padding: 5px;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 20px;
+  font-size: large;
+}
+
+.buttons {
+  width: 120px;
+  height: 5%;
+  border-color: lightskyblue;
+}
+
+.presentation {
+  display: flex;
+  gap: 20px;
+}
+
+#iVs {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+
+}

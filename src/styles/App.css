@@ -1,0 +1,15 @@
+body,
+html,
+#root {
+  height: 100%;
+  margin: 0;
+  font-family: 'Finger Paint', cursive, Arial, Helvetica, sans-serif;
+}
+
+.background-container {
+  background-image: url("../assets/images/background-image.png");
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
